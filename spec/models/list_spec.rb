@@ -22,6 +22,9 @@ RSpec.describe List, type: :model do
       task.snooze.hour!
       expect(task.deadline).to eq(time_now + 1.hour)
     end
+
+  # describe '#total_duration' do
+  #   it 'should '
   end
 
 end
